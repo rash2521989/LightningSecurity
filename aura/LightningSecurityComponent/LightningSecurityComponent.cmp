@@ -3,7 +3,8 @@
     <aura:attribute type="Account" name="acc" />
     <aura:attribute type="string" default="http://google.com"   name="foo"/>    
     <lightning:formattedText value="{!v.acc.Name}" />
-    
+    <scipt>alert('hi');</script>
+    <style></style>
     <iframe></iframe>
     <a href="{!v.foo}" id="hi1">click</a> 
 <iframe src="{!v.foo}" id="hi" height="200px"  width="300px"/> 
