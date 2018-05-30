@@ -1,0 +1,17 @@
+<aura:component controller="LightningSecurity">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute type="Account" name="acc" />
+    <aura:attribute type="string" default="http://google.com"   name="foo"/>    
+    <lightning:formattedText value="{!v.acc.Name}" />
+    
+    <iframe></iframe>
+    <a href="{!v.foo}" id="hi1">click</a> 
+<iframe src="{!v.foo}" id="hi" height="200px"  width="300px"/> 
+    <iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+<iframe src="https://www.w3schools.com">hgfhgf</iframe>
+    <lightning:container aura:id="MyAngularApp"
+                         src="https://www.w3schools.com"/>
+
+    <form><button formaction="javascript:alert(1)">X</button></form>
+
+</aura:component>
