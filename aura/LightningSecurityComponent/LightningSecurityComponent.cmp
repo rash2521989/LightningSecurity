@@ -14,5 +14,13 @@
                          src="https://www.w3schools.com"/>
 
     <form><button formaction="javascript:alert(1)">X</button></form>
+    
+    <b><font color="red"><input </font></b><font color="red">
+type="hidden" name="page" value="/someImportantAction.jsp" /></font>
+<input type="text" name="name" value="Alice" 
+/>
+<input type="password" name="password" value="" />
+<input type="submit" />
+</form>
 
 </aura:component>
